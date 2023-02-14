@@ -1,0 +1,117 @@
+* {
+  font-family: "Merriweather", serif;
+  margin: 7px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #282220;
+  color: white;
+}
+.rotors {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.rotor {
+  height: 140px;
+  width: 25px;
+  margin: 0px 12px;
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.rotorLetter {
+  background-color: white;
+  text-align: center;
+  font-size: large;
+  color: black;
+  cursor: pointer;
+}
+.prevLetter {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+.nextletter {
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+.result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 60%;
+  height: 48px;
+  border-radius: 12px;
+}
+.buttons {
+  padding: 25px 20px;
+  height: 200px;
+  width: 100%;
+}
+.btn {
+  color: #d0d0d0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px #aaaaaa solid;
+  cursor: pointer;
+  text-align: center;
+  background: linear-gradient(
+    326deg,
+    #4c4c4c 0%,
+    #595959 12%,
+    #666666 25%,
+    #474747 39%,
+    #2c2c2c 50%,
+    #000000 51%,
+    #111111 60%,
+    #2b2b2b 76%,
+    #1c1c1c 91%,
+    #131313 100%
+  );
+  font-size: 16pt;
+  margin: 4px 14px;
+  padding: 3px;
+}
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.plug {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.plugBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse at top right,
+    #000000 16%,
+    #636363 81%,
+    #161616 98%
+  );
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  margin: 0px auto;
+  height: 4px;
+  background-color: #333333;
+  opacity: 0.5;
+  -webkit-box-shadow: 0px 0px 5px 4px rgb(51 51 51 / 75%);
+  -moz-box-shadow: 0px 0px 5px 4px rgba(51, 51, 51, 0.75);
+  box-shadow: 0px 0px 5px 4px rgb(51 51 51 / 75%);
+}
